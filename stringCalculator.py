@@ -19,4 +19,3 @@ class StringCalculator:
             raise ValueError(f"negative numbers not allowed {', '.join(map(str, negatives))}")
 
         return sum(num_list)
-
